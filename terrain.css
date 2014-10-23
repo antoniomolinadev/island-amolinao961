@@ -1,0 +1,49 @@
+/*
+*  html5 doctor css reset | http://html5doctor.com/html-5-reset-stylesheet
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+*{
+	-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;
+	font-family:serif;
+	font-size: 16px;
+}
+.canvas{
+	display:inline-block;
+}
+.canvas>span{
+	display:block;
+	width:25px;
+	height:25px;
+	float:left;
+}
+#generate-form{
+	margin-left:5%;
+	border:2px solid #000;
+	border-radius:10px;
+	display:inline-block;
+	vertical-align: top;
+	padding:10px;
+	text-align:center;
+}
+#generate-form input{cursor:pointer;}
+#generate-form fieldset>div:not(:last-child){padding-bottom:10px;}
+div>label{font-weight: bold; font-size:1.1em; line-height:30px;}
+.clear{clear: both;}
+.agua{background-color:#010195;}
+.tierra{background-color: #A52A2A;}
+.arena{background-color: #EFDD6F;}
+.costa{background-color: blue;}
